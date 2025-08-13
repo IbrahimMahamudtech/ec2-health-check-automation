@@ -1,0 +1,44 @@
+# ----------------------------
+# 🌍 Terraform
+# ----------------------------
+**/.terraform/*               # Local .terraform directories
+*.tfstate                     # Terraform state files
+*.tfstate.*                   # Backup state files
+*.tfvars                      # Variable definition files (can contain secrets)
+terraform.tfvars              # Explicitly ignore terraform.tfvars
+.terraformrc                  # CLI config file (user-specific)
+terraform.rc
+
+# ----------------------------
+# 🐍 Python
+# ----------------------------
+__pycache__/                  # Bytecode cache
+*.py[cod]                     # Compiled Python files
+*.egg-info/                   # Packaging info
+*.egg
+.env                          # Environment variables (can contain secrets)
+*.log                         # Log files
+venv/                         # Virtual environment
+
+# ----------------------------
+# 🔐 AWS / Security
+# ----------------------------
+*.pem                         # SSH private keys
+*.key                         # Other private keys
+*.crt                         # Certificates
+.aws/                         # AWS CLI credentials/config
+
+# ----------------------------
+# 💻 OS / IDE Specific
+# ----------------------------
+.DS_Store                     # macOS file metadata
+Thumbs.db                     # Windows thumbnail cache
+.vscode/                      # VS Code settings
+.idea/                        # JetBrains IDE settings
+
+# ----------------------------
+# 🧹 Miscellaneous
+# ----------------------------
+*.bak                         # Backup files
+*.tmp                         # Temporary files
+
